@@ -1,0 +1,50 @@
+.navbar {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 60px;
+  color: #a6a6a6;
+}
+
+ul {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+li {
+  margin-left: 20px;
+}
+
+li a {
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li .icon {
+  align-self: center;
+  fill: black;
+  fill-opacity: 0;
+}
+
+li .icon:hover {
+  fill-opacity: 0.1;
+  cursor: pointer;
+  color: #a6a6a6;
+  transition: all 0.2s ease-in-out;
+}
+
+.page-name {
+  font-size: 18px;
+  text-align: center;
+  position: sticky;
+}

@@ -1,0 +1,59 @@
+.home {
+  width: 100%;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.home-social {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.home-social a {
+  margin-right: 20px;
+  color: #a6a6a6;
+}
+
+.home-social a svg {
+  fill: black;
+  fill-opacity: 0%;
+  width: 30px;
+  height: 30px;
+}
+
+.home-social a svg:hover {
+  fill: black;
+  fill-opacity: 20%;
+  transition: all 0.3s ease-in-out;
+}
+
+.links{
+  margin: auto;
+  gap: 3vw;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.links a {
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-decoration: underline;
+  color: #a6a6a6;
+  padding: 5px 10px;
+  position: relative;
+  margin: 0 10px;
+}
