@@ -4,12 +4,12 @@ import React from "react";
 
 function About() {
   const onButtonClick = () => {
-    fetch("logo192.png").then((response) => {
+    fetch("./docs/Fernando Apóstolo - CV.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "logo192.png";
+        alink.download = "Fernando Apóstolo - CV.pdf";
         alink.click();
       });
     });
@@ -18,7 +18,8 @@ function About() {
     <>
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}s
+        whileInView={{ opacity: 1 }}
+        s
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
@@ -73,8 +74,16 @@ function About() {
               build together!
             </p>
           </div>
-          <button onClick={onButtonClick} download className="download">
-            <IconDownload /> <span>Download Resume</span>
+          <button
+            onClick={onButtonClick}
+            download
+            className="download pushable"
+          >
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">
+              <IconDownload /> <span>Download Resume</span>
+            </span>
           </button>
         </div>
       </motion.div>

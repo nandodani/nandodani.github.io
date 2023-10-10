@@ -194,12 +194,12 @@ function MyProjects() {
                   <p>{project.description}</p>
                 </div>
                 <div className="project-footer">
-                  <div className="project-social-links">
+                  <div className="project-social-links github">
                     <a href={project.githubLink}>
                       <IconBrandGithub />
                     </a>
                   </div>
-                  <div className="project-external-link">
+                  <div className="project-external-link external">
                     <a href={project.externalLink}>
                       <IconExternalLink />
                     </a>

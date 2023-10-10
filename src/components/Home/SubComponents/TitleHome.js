@@ -19,23 +19,52 @@ function TitleHome() {
             <span className="span-home"> UI/UX Designer</span> who loves
             building fun websites, apps and other digital stuff.
           </p>
-          <div className="links">
-            <a
-              href="https://www.linkedin.com/in/fernando-apostolo"
-              target="_blank"
-              rel="noreferrer"
-              style={{ backgroundColor: "#0065c9" }}
-            >
-              <IconBrandLinkedin />
-            </a>
-            <a
-              href="https://github.com/nandodani"
-              target="_blank"
-              rel="noreferrer"
-              style={{ backgroundColor: "#23292f" }}
-            >
-              <IconBrandGithub />
-            </a>
+          <div className="home-links">
+            <div className="pushable">
+              <span class="shadow"></span>
+              <span
+                class="edge"
+                style={{
+                  backgroundColor: "#0065c9",
+                  background:
+                    "linear-gradient(to left, hsl(210, 100%, 39%) 0%, hsl(210, 100%, 30%) 8%, hsl(210, 100%, 30%) 92%, hsl(210, 100%, 39%) 100%)",
+                }}
+              ></span>
+              <span
+                class="front"
+                style={{ backgroundColor: "#0065c9", padding: "10px" }}
+              >
+                <a
+                  href="https://www.linkedin.com/in/fernando-apostolo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <IconBrandLinkedin />
+                </a>
+              </span>
+            </div>
+            <div className="pushable">
+              <span class="shadow"></span>
+              <span
+                class="edge"
+                style={{
+                  backgroundColor: "#0065c9",
+                  background:
+                    "linear-gradient(to left, hsl(210, 15%, 16%) 0%, hsl(210, 15%, 5%) 8%, hsl(210, 15%, 5%) 92%, hsl(210, 15%, 16%) 100%)",
+                }}
+              ></span>              <span
+                class="front"
+                style={{ backgroundColor: "#23292f", padding: "10px" }}
+              >
+                <a
+                  href="https://github.com/nandodani"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <IconBrandGithub />
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </motion.div>

@@ -147,7 +147,6 @@
 }
 
 .project-footer a {
-  background-color: #d8d8d8;
   color: white;
   padding: 3px;
   border-radius: 3px;
@@ -157,8 +156,24 @@
   text-decoration: none;
 }
 
-.project-footer a:hover {
-  background-color: #a6a6a6;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
+.project-footer .github a{
+  border-radius: 5px;
+  background-color: #23292f;
 }
+
+.project-footer .github a:hover{
+  box-shadow: 0 0 5px #23292f;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.project-footer .external a{
+  border-radius: 5px;
+  background-color: #a6a6a6;
+}
+
+.project-footer .external a:hover{
+  box-shadow: 0 0 5px #23292f;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+
