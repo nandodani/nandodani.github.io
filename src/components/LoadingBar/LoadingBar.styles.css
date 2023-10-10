@@ -1,0 +1,16 @@
+.loading-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #36D7B7; /* Cor da barra de loading */
+  }
+  
+  .bar {
+    width: 0;
+    height: 100%;
+    background-color: #36D7B7; /* Cor da barra de loading */
+    transition: width 2s ease-in-out;
+  }
+  
+  .loading-complete .bar {
+    width: 100%;
+  }

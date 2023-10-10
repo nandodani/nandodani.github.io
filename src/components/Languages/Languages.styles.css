@@ -1,0 +1,10 @@
+.language-toggle {
+  display: flex;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: 0;
+  color: #a6a6a6;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

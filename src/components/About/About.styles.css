@@ -1,0 +1,101 @@
+.about {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  display: block;
+}
+
+.about-me {
+  padding: 75px 50px 150px 50px;
+  scroll-snap-align: start;
+  justify-content: center;
+}
+
+.about-me h2, .about-tech-stack h2 {
+  font-size: 3em;
+  text-align: center;
+  margin: 0;
+}
+
+.bio {
+  width: 60%;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.bio p {
+  font-size: 1.2em;
+  scroll-snap-align: center;
+}
+
+.about-tech-stack {
+  padding: 75px 50px 150px 50px;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  scroll-snap-align: start;
+}
+
+.about-tech-stack ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+
+.about-tech-stack li {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #a6a6a6;
+  padding: 7px 15px;
+  margin: 5px;
+  border-radius: 18px ;
+  outline: #858585;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #a6a6a6;
+}
+
+.about-tech-stack li .icon {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.download {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin: auto;
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: center;
+  color: #a6a6a6;
+  font-size: 1.2em;
+}
+
+.download span {
+  text-decoration: underline;
+}
+
+.download:hover {
+  color: #858585;
+  transition: color 0.5s ease-in-out;
+}
