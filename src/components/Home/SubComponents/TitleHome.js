@@ -11,27 +11,30 @@ function TitleHome() {
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
       >
-        <div className="page-title">
+        <div className="home-title">
           <h1>Hello World!</h1>
           <p>
-            I'm Fernando, a <span>Front-End Developer</span> and
-            <span> UI/UX Designer</span> who loves building fun websites, apps
-            and other digital stuff.
+            I'm Fernando, a{" "}
+            <span className="span-home">Front-End Developer</span> and
+            <span className="span-home"> UI/UX Designer</span> who loves
+            building fun websites, apps and other digital stuff.
           </p>
-          <div className="home-social">
+          <div className="links">
+            <a
+              href="https://www.linkedin.com/in/fernando-apostolo"
+              target="_blank"
+              rel="noreferrer"
+              style={{ backgroundColor: "#0065c9" }}
+            >
+              <IconBrandLinkedin />
+            </a>
             <a
               href="https://github.com/nandodani"
               target="_blank"
               rel="noreferrer"
+              style={{ backgroundColor: "#23292f" }}
             >
               <IconBrandGithub />
-            </a>
-            <a
-              href="http://www.linkedin.com/in/fernando-apostolo"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <IconBrandLinkedin />
             </a>
           </div>
         </div>

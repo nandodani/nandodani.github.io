@@ -1,5 +1,5 @@
 .App {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   display: flex;
   background-color: hsla(324, 0%, 100%, 1);
@@ -14,72 +14,60 @@
       transparent 50%
     ),
     radial-gradient(at 0% 22%, hsla(285, 100%, 68%, 0.15) 0px, transparent 50%);
-  text-align: center;
   justify-content: center;
-  overflow: hidden !important;
+  align-items: center;
 }
 
 .App-header {
   top: 0;
   width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+}
+
+.App-footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
 }
 
 .App-bg-effect {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  overflow: hidden;
   justify-content: center;
   align-items: center;
   z-index: 1;
   position: absolute;
   width: 100%;
   height: 100%;
+  background-repeat:repeat;
   background-image: url("./assets/images/noise.png");
   margin: 0;
 }
 
-.App-main {
-  margin: auto;
-  border: solid 1px #a6a6a6;
-  border-radius: 50px;
-  z-index: 2;
-  width: 95%;
-  height: 90vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  padding: 0 !important;
-}
-
-.App-main::-webkit-scrollbar,
-.main-content::-webkit-scrollbar {
+.App::-webkit-scrollbar, main::-webkit-scrollbar{
   display: none;
 }
 
-.main-content {
+main {
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-}
-
-.App-main main {
   width: 100%;
   height: 100%;
 }
 
 .page-title {
-  scroll-snap-align: start;
-  width: 90%;
-  height: 100%;
+  display: flex;
+  scroll-snap-align: center;
+  max-width: 90%;
+  min-width: 50%;
+  height: 100vh;
   margin: auto;
-  margin-bottom: 200px;
-  padding: 75px 50px;
+
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .page-title h1 {
@@ -95,10 +83,3 @@
   margin: 0;
 }
 
-.page-title span {
-  color: #5a8179;
-  font-weight: bold;
-  text-decoration: wavy underline;
-  text-decoration-skip-ink: none;
-  text-wrap: nowrap;
-}

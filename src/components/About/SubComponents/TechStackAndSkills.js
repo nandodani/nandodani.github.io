@@ -124,11 +124,6 @@ function About() {
             <h3>Additional Skills</h3>
             <ul>{renderSkillsWithIcons(additionalSkills)}</ul>
           </div>
-          <p>
-            I specialize in creating intuitive user interfaces and seamless user
-            experiences, with a focus on responsive design and modern web
-            technologies.
-          </p>
         </div>
       </motion.div>
     </>

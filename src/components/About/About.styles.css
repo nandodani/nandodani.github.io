@@ -3,14 +3,14 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  display: block;
 }
 
 .about-me {
-  margin-bottom: 200px;
+  padding: 75px 50px 150px 50px;
   scroll-snap-align: start;
-  padding: 75px 50px;
   justify-content: center;
 }
 
@@ -31,6 +31,7 @@
 
 .bio p {
   font-size: 1.2em;
+  scroll-snap-align: center;
 }
 
 .about-tech-stack {
@@ -52,6 +53,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  gap: 10px;
 }
 
 .about-tech-stack li {
@@ -60,9 +62,10 @@
   justify-content: center;
   align-items: center;
   border: 2px solid #a6a6a6;
-  padding: 5px 10px;
+  padding: 7px 15px;
   margin: 5px;
-  border-radius: 10px;
+  border-radius: 18px ;
+  outline: #858585;
   font-size: 1.2em;
   font-weight: bold;
   color: #a6a6a6;

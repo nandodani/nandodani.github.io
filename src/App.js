@@ -14,21 +14,21 @@ function App() {
     <div className="App">
       <div className="App-bg-effect">
         <Router>
-          <div className="App-main">
-            <header className="App-header">
-              <Navbar />
-            </header>
-            <main>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contacts />} />
-              </Routes>
-            </main>
-          </div>
+          <header className="App-header">
+            <Navbar />
+          </header>
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contacts />} />
+            </Routes>
+          </main>
         </Router>
-        <Languages />
+        <footer className="App-footer">
+          <Languages />
+        </footer>
       </div>
     </div>
   );
