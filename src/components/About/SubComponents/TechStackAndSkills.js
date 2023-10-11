@@ -120,7 +120,7 @@ function About() {
             <h3>UI/UX Design Tools</h3>
             <ul>{renderSkillsWithIcons(uiUxSkills)}</ul>
           </div>
-          <div>
+          <div className="last-div">
             <h3>Additional Skills</h3>
             <ul>{renderSkillsWithIcons(additionalSkills)}</ul>
           </div>

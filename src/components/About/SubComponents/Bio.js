@@ -19,7 +19,6 @@ function About() {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        s
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
@@ -79,9 +78,9 @@ function About() {
             download
             className="download pushable"
           >
-            <span class="shadow"></span>
-            <span class="edge"></span>
-            <span class="front">
+            <span className="shadow"></span>
+            <span className="edge"></span>
+            <span className="front">
               <IconDownload /> <span>Download Resume</span>
             </span>
           </button>

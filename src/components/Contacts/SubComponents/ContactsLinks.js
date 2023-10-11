@@ -72,7 +72,7 @@ function ContactsLinks() {
                 style={{ padding: "10px" }}
               >
                 <a
-                  href="https://github.com/nandodani"
+                  href="mailto:fernandodaniel.work@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >

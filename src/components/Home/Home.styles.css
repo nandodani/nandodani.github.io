@@ -71,3 +71,31 @@
   align-items: center;
   gap: 10px;
 }
+
+@media screen and (max-width: 480px) { 
+
+  .home-title {
+    width: 90%;
+    padding: 75px 0px;
+  }
+
+  .home-title h1 {
+    font-size: 12vw;
+    text-align: center;
+  }
+
+  .home-title p {
+    font-size: 4vw;
+  }
+
+  .home-links {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+
+}
