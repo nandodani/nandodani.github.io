@@ -15,7 +15,7 @@
 }
 
 .about-me h2, .about-tech-stack h2 {
-  font-size: 3em;
+  font-size: 2vw;
   text-align: center;
   margin: 0;
 }
@@ -30,7 +30,7 @@
 }
 
 .bio p {
-  font-size: 1.2em;
+  font-size: 1.2vw;
   scroll-snap-align: center;
 }
 
@@ -62,19 +62,19 @@
   justify-content: center;
   align-items: center;
   border: 2px solid #a6a6a6;
-  padding: 7px 15px;
+  padding: 7px 20px;
   margin: 5px;
-  border-radius: 18px ;
+  border-radius: 0.5vw ;
   outline: #858585;
-  font-size: 1.2em;
+  font-size: 1vw;
   font-weight: bold;
   color: #a6a6a6;
 }
 
 .about-tech-stack li .icon {
+  display: flex;
   padding: 0;
   margin: 0;
-  font-size: 1.5em;
 }
 
 .download {
@@ -88,7 +88,7 @@
   align-items: flex-end;
   justify-content: center;
   color: #a6a6a6;
-  font-size: 1.2em;
+  font-size: 1vw;
 }
 
 .download span {
@@ -98,4 +98,92 @@
 .download:hover {
   color: #858585;
   transition: color 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+
+  .about-me {
+    padding: 75px 0px;
+    scroll-snap-align: start;
+    justify-content: center;
+  }
+
+  .about-me h2, .about-tech-stack h2 {
+    font-size: 9vw;
+    text-align: center;
+    margin: 0;
+  }
+
+  .bio {
+    width: 90%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .bio p {
+    text-align: justify;
+    text-size-adjust: 100%;
+    font-size: 4vw;
+    scroll-snap-align: center;
+  }
+
+  .about-tech-stack {
+    scroll-snap-align: start;
+    padding: 75px 0px 100px 0px;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    scroll-snap-type: mandatory;
+    scroll-snap-align: start;
+  }
+  
+  .about-tech-stack ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .about-tech-stack li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #a6a6a6;
+    padding: 7px 20px;
+    margin: 5px;
+    border-radius: 2vw ;
+    outline: #858585;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #a6a6a6;
+  }
+  
+  .about-tech-stack li .icon {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-tech-stack li .icon svg {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .about-tech-stack div ul{
+    scroll-snap-align: start;
+  }
+
+
 }

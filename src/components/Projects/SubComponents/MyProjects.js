@@ -132,7 +132,6 @@ function MyProjects() {
         viewport={{ once: true }}
       >
         <div className="projects-container">
-          {" "}
           <h2>My Projects</h2>
           {projectsData.map((project, index) => (
             <div
