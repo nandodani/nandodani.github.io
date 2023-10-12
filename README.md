@@ -19,7 +19,7 @@ This is my website repository. You can find the all code here.
 
 ## Credits
 
-- [Magical 3D Button](https://www.joshwcomeau.com/animation/3d-button/) from Josh Comeau
+- [Magical 3D Button](https://www.joshwcomeau.com/animation/3d-button/) by Josh Comeau
 
 ## Contact
 Name: Fernando Apóstolo \
