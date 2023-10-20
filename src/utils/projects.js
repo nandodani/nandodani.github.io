@@ -7,7 +7,7 @@ const projectsData = [
     image: "/images/screenshot-itsweather.png",
     description: "Weather application developed as part of my personal portfolio. It provides accurate and up-to-date weather information for users.",
     githubLink: "https://github.com/nandodani/ItsWeather",
-    externalLink: "",
+    externalLink: "https://its-weather.vercel.app/",
     techStack: ["HTML5", "CSS3", "JavaScript", "React.js", "Node.js"],
   },
   {
